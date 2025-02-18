@@ -3,29 +3,40 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    max-width: 100%;
     margin: 0;
     background-color: black;
     font-family: sans-serif;
     color: white;
+    overflow-x: hidden;
 }
 
 flexbox {
     display: flex;
-    border: 1px solid white;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 
 #header {
-    height: 10%;
+    height: 10vh;
 }
 
 #main {
-    height: 80%;
+    height: 80vh;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+video {
+    margin: 0;
 }
 
 #footer {
-    height: 10%;
+    height: 10vh;
     justify-content: space-evenly;
+}
+
+.footer_links {
+    margin: 0;
 }
