@@ -33,7 +33,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 10976576923288894377
       m_GuidHigh: 17290169850156054426
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 2.44, y: 3.5442336}
+    m_SpecifySize: 1
     m_Name: Earth
     m_Texture: {fileID: 2800000, guid: 2a627ba9a28e98549a77b818df05f3ef, type: 3}

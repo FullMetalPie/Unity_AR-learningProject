@@ -43,6 +43,8 @@ public class ImageTracker : MonoBehaviour
                     //prefabPosition.y = 1;
                     var newPrefab = Instantiate(arPrefab, trackedImage.transform.position, trackedImage.transform.rotation);
                     ARObjects.Add(newPrefab);
+                    newPrefab.transform.localScale += new Vector3(0.5f,0.5f,0.5f);
+                    newPrefab.transform.parent = trackedImage.transform;   
                 }
             }
         }
