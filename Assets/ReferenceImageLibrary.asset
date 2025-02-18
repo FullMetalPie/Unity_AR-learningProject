@@ -21,12 +21,12 @@ MonoBehaviour:
       m_GuidLow: 5063780960217880514
       m_GuidHigh: 13131622148196346527
     m_SerializedTextureGuid:
-      m_GuidLow: 12012353284166377450
-      m_GuidHigh: 1300401337955596793
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+      m_GuidLow: 12935704089255505270
+      m_GuidHigh: 11792278604374792187
+    m_Size: {x: 2.44, y: 3.5872705}
+    m_SpecifySize: 1
     m_Name: Mars
-    m_Texture: {fileID: 2800000, guid: f33bdfea73aaa6b4f939498620f40b12, type: 3}
+    m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5732459642900422913
       m_GuidHigh: 8825706219915310251
