@@ -39,8 +39,22 @@ public class ImageTracker : MonoBehaviour
             {
                 if(trackedImage.referenceImage.name == arPrefab.name)
                 {
+                    //var prefabPosition = trackedImage.transform.position;
+                    //prefabPosition.y = 1;
                     var newPrefab = Instantiate(arPrefab, trackedImage.transform.position, trackedImage.transform.rotation);
                     ARObjects.Add(newPrefab);
+                }
+            }
+        }
+
+        //Update tracking position
+        foreach (var trackedImage in eventArgs.updated)
+        {
+            foreach (var gameObject in ARObjects)
+            {
+                if(gameObject.name == trackedImage.name)
+                {
+                    gameObject.SetActive(trackedImage.trackingState == TrackingState.Tracking);
                 }
             }
         }
