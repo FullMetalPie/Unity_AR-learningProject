@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6213816694801947816}
   - component: {fileID: 4038761636773570241}
   - component: {fileID: 9017701925539817871}
-  - component: {fileID: 3436667099119919237}
+  - component: {fileID: 9013294286113876275}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 779039294f3f8c145854eaf19a61990f, type: 2}
+  - {fileID: 2100000, guid: 66d133fcb3be3494f9ef3974e3ad7abb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,7 +109,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.49999994
   m_Center: {x: 0, y: 0.00000001490116, z: 0.00000005960464}
---- !u!114 &3436667099119919237
+--- !u!114 &9013294286113876275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 324101910998576231}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1affb40595fc8b49976dea2ba0e4056, type: 3}
+  m_Script: {fileID: 11500000, guid: 60f591800c023a149a488d97e545045b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2626324147562348909
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 5087157301586700849}
   - component: {fileID: 1331662663742902847}
   - component: {fileID: 4312237416476530567}
-  - component: {fileID: 702168438256221276}
+  - component: {fileID: 8690940474235789944}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -231,7 +231,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &702168438256221276
+--- !u!114 &8690940474235789944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -240,6 +240,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2626324147562348909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1affb40595fc8b49976dea2ba0e4056, type: 3}
+  m_Script: {fileID: 11500000, guid: 60f591800c023a149a488d97e545045b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

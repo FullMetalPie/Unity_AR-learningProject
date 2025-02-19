@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2038916498556454216}
   - component: {fileID: 6404849198944254256}
   - component: {fileID: 6195042374465186052}
-  - component: {fileID: 7469671639434723311}
+  - component: {fileID: 3365157027845893043}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -109,7 +109,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7469671639434723311
+--- !u!114 &3365157027845893043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,6 +118,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 414237725104295486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1affb40595fc8b49976dea2ba0e4056, type: 3}
+  m_Script: {fileID: 11500000, guid: 60f591800c023a149a488d97e545045b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
