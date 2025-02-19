@@ -4,6 +4,7 @@ using UnityEngine;
 
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using UnityEngine.XR.Management;
 
 public class ImageTracker : MonoBehaviour
 {
@@ -61,5 +62,15 @@ public class ImageTracker : MonoBehaviour
             }
         }
         
+    }
+
+    private void OnDestroy()
+    {
+        XRGeneralSettings instance = XRGeneralSettings.Instance;
+        if (instance != null)
+        {
+            instance.Manager.DeinitializeLoader();
+            instance.Manager.StopSubsystems();
+        }
     }
 }
