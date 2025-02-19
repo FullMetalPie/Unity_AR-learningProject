@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,7 +9,7 @@ body {
     max-width: 100%;
     margin: 0;
     background-color: black;
-    font-family: sans-serif;
+    font-family: Lexend, sans-serif;
     color: white;
     overflow-x: hidden;
 }
@@ -18,25 +21,63 @@ flexbox {
     justify-content: center;
 }
 
+/*HEAD SECTION*/
 #header {
     height: 10vh;
+    font-size: 3em;
 }
 
+.titles { 
+    background: rgb(2,0,36);
+    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(43,121,9,1) 10%, rgba(0,168,255,1) 67%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*MAIN SECTION*/
 #main {
     height: 80vh;
     border: 1px solid white;
     border-radius: 50px;
 }
 
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    /*Size*/
+    height: 100%;
+    width: 50%;
+    /*Margin*/
+    margin: 2em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    /*Text*/
+    font-size: 1.5em;
+}
+
 video {
     margin: 0;
 }
 
+#no_list {
+    list-style: none;
+}
+li {
+    margin-top: 0.5em;
+}
+
+/*TAIL SECTION*/
 #footer {
     height: 10vh;
     justify-content: space-evenly;
 }
 
-.footer_links {
-    margin: 0;
+#download_button {
+    border: 1px solid;
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(43,121,9,1) 10%, rgba(0,168,255,1) 67%); 
+    padding: 3px;
+    color: white;
 }

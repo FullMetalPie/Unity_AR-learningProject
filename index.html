@@ -9,15 +9,60 @@
             <h1>Untitled Unity Project</h1>
         </flexbox>
         <flexbox id="main">
-            <video width="200px" muted autoplay loop>
-                <source src="Test_AR-demo.mp4" type="video/mp4">
-                
-            </video>
+            <div class="paragraphs">
+                <p>
+                    <h2 class="titles" style="font-style: italic;">About the project</h2>
+                    "Untitled Unity Project" is a small project developed during my internship.<br />
+                    As i learned how to use unity, i gradually built an app that lets you:
+                    <ul>
+                        <li>Generate 3D image projections form an image in the real world.</li>
+                        <li>Roll a ball aroud the detected space, following real life physics.</li>
+                        <li>And more...</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="paragraphs">
+                <p>
+                    <h2 class="titles" style="font-style: italic;">How i made it</h2>
+                    This app was developed using Unity 6 (6000.0.38f1), with the addition of the XRfoundation and ARcore plugins.
+                    The entire Unity project is avaiable on GitHub, following this <a href="https://github.com/FullMetalPie/Unity_AR-learningProject" target="_blank">link.</a>
+                    <video style="align-self: center;" width="170px" muted autoplay loop>
+                        <source src="Test_AR-demo.mp4" type="video/mp4" />
+                    </video>
+                </p>
+            </div>
+            <div class="paragraphs">
+                <p>
+                    <h2 class="titles" style="font-style: italic;">About me</h2>
+                    My name is Andrea, i am an highschool student in Italy and i am about to graduate in computer science.<br />
+                    Follow my upcoming projects here &darr;<br />
+                    <ul id="no_list">
+                        <li>
+                            <a href="https://github.com/FullMetalPie" target="_blank">
+                                <svg width="50" height="50">
+                                    <image href="github-mark-white.svg" height="50" width="50" />
+                                  </svg>
+                                GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://" target="_blank">
+                                <svg width="50" height="50">
+                                    <image href="Instagram_logo_2022.svg.png" height="50" width="50" />
+                                  </svg>
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
         </flexbox>
         <flexbox id="footer">
-            <a class="footer_links" href="https://github.com/FullMetalPie" target="_blank">Github profile</a>
-            <a class="footer_links" href="demo.apk">.apk</a>
-            <a class="footer_links" href="https://github.com/FullMetalPie/Unity_AR-learningProject" target="_blank">Repo</a>
+            <div id="download_button">
+                <a href="demo.apk">
+                    Download .apk
+                </a>
+            </div>
         </flexbox>
     </body>
 </html>
