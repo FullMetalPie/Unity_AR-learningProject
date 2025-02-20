@@ -11,6 +11,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync("AR_ImageTracking");
     }
 
+    public void playPlaneDetect() {
+        StartSession();
+        SceneManager.LoadSceneAsync("ARPlaneDetect");
+    }
+
     public void gitHubButton() {
         Application.OpenURL("https://github.com/FullMetalPie");
     }
