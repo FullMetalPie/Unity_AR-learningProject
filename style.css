@@ -24,7 +24,7 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 15vh;
+    height: 17vh;
     font-size: 8vw;
     text-overflow: clip;
     z-index: 999;
@@ -34,7 +34,7 @@ body {
 .main_page-content {
     display: flex;
     width: 100vw;
-    height: 85vh;
+    height: 83vh;
     border: 1px blue solid;
     justify-content: center;
 }
@@ -43,10 +43,26 @@ body {
     font-size: 5vw;
 }
 
+#about-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text {
+    display: flex;
+    height: 70%;
+    justify-content: space-evenly;
+    font-size: 2.5vw;
+    min-width: 40vw;
+    border: 1px greenyellow solid;
+    padding: 1em;
+    flex-wrap: wrap;
+}
 
 #download {
     width: 100vw;
-    height: 15vh;
+    height: 17vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -58,10 +74,12 @@ body {
     border-radius: 15px;
     background: linear-gradient(153deg, rgba(43,121,9,1) 29%, rgba(0,168,255,1) 66%, rgba(0,168,255,1) 66%); 
     color: black;
+    margin: 1px;
 }
 
 #download_button:hover {
     transition: .7s;
     border: 1px white solid;
     color: white;
+    margin: 0;
 }
