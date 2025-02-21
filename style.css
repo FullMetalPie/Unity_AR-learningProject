@@ -12,73 +12,56 @@ body {
     font-family: Lexend, sans-serif;
     color: white;
     overflow-x: hidden;
+    padding-top: 15vh;
 }
 
-flexbox {
+#fixed_header {
+    position: fixed;
     display: flex;
-    width: 100%;
+    justify-content: center;
     align-items: center;
+    border: 1px red solid;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 15vh;
+    font-size: 8vw;
+    text-overflow: clip;
+    z-index: 999;
+    background-color: black;
+}
+
+.main_page-content {
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    border: 1px blue solid;
     justify-content: center;
 }
 
-/*HEAD SECTION*/
-#header {
-    height: 10vh;
-    font-size: 4vw;
+.main_page-content h2 {
+    font-size: 5vw;
 }
 
-.titles { 
-    background: rgb(2,0,36);
-    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(43,121,9,1) 10%, rgba(0,168,255,1) 67%); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-/*MAIN SECTION*/
-#main {
+#download {
+    width: 100vw;
+    height: 15vh;
     display: flex;
-    height: 80vh;
-    border: 1px solid white;
-    border-radius: 50px;
-}
-
-.paragraphs {
-    display: flex;
-    flex-direction: column;
-    /*Size*/
-    height: 100%;
-    width: 50%;
-    /*Margin*/
-    margin: 2em;
-    margin-top: 4em;
-    margin-bottom: 4em;
-    /*Text*/
-    font-size: 1.5em;
-}
-
-video {
-    margin: 0;
-}
-
-#no_list {
-    list-style: none;
-}
-li {
-    margin-top: 0.5em;
-}
-
-/*TAIL SECTION*/
-#footer {
-    height: 10vh;
+    align-items: center;
     justify-content: space-evenly;
+    flex-direction: row;
 }
 
 #download_button {
-    border: 1px solid;
-    max-width: 250px;
-    padding: 1rem;
-    position: relative;
-    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(43,121,9,1) 10%, rgba(0,168,255,1) 67%); 
-    padding: 3px;
+    padding: 1em;
+    border-radius: 15px;
+    background: linear-gradient(153deg, rgba(43,121,9,1) 29%, rgba(0,168,255,1) 66%, rgba(0,168,255,1) 66%); 
+    color: black;
+}
+
+#download_button:hover {
+    transition: .7s;
+    border: 1px white solid;
     color: white;
 }

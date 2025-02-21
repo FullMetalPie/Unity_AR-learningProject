@@ -2,69 +2,36 @@
 <html>
     <head>
         <meta name="author" content="Pietri Andrea 5AI" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>AR project | Pietri Andrea</title>
         <link href="style.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
-        <flexbox id="header">
-            <h1>AR_Planets</h1>
-        </flexbox>
-        <flexbox id="main">
-            <div class="paragraphs">
-                <p>
-                    <h2 class="titles" style="font-style: italic;">About the project</h2>
-                    "Untitled Unity Project" is a small project developed during my internship.<br />
-                    As i learned how to use unity, i gradually built an app that lets you:
-                    <ul>
-                        <li>Generate 3D image projections form an image in the real world.</li>
-                        <li>Roll a ball aroud the detected space, following real life physics.<br />
-                        <span style="color: red">(Under developement!)</span></li>
-                        <li>And more...</li>
-                    </ul>
-                </p>
+        <div id="fixed_header">
+            <h1>bARsketball</h1>
+        </div>
+        <div id="main_page">
+            <div class="main_page-content" id="about-project">
+                <h2>About the project</h2>
             </div>
-            <div class="paragraphs">
-                <p>
-                    <h2 class="titles" style="font-style: italic;">How i made it</h2>
-                    This app was developed using Unity 6 (6000.0.38f1), with the addition of the ARfoundation and XRcore plugins.
-                    The entire Unity project is avaiable on GitHub, following this <a href="https://github.com/FullMetalPie/Unity_AR-learningProject" target="_blank">link.</a>
-                    <video style="align-self: center;" width="170px" muted autoplay loop>
-                        <source src="Media/Test_AR-demo.mp4" type="video/mp4" />
-                    </video>
-                </p>
+            <div class="main_page-content" id="about-me">
+                <h2>About me</h2>
             </div>
-            <div class="paragraphs">
-                <p>
-                    <h2 class="titles" style="font-style: italic;">About me</h2>
-                    My name is Andrea, i am an highschool student in Italy and i am about to graduate in computer science.<br />
-                    Follow my upcoming projects here &darr;<br />
-                    <ul id="no_list">
-                        <li>
-                            <a href="https://github.com/FullMetalPie" target="_blank">
-                                <svg width="50" height="50">
-                                    <image href="Media/github-mark-white.svg" height="50" width="50" />
-                                  </svg>
-                                GitHub
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://" target="_blank">
-                                <svg width="50" height="50">
-                                    <image href="Media/Instagram_logo_2022.svg.png" height="50" width="50" />
-                                  </svg>
-                                Instagram
-                            </a>
-                        </li>
-                    </ul>
-                </p>
-            </div>
-        </flexbox>
-        <flexbox id="footer">
-            <div id="download_button">
-                <a href="Media/demo.apk">
-                    Download .apk
+            <div id="download">
+                <a href="https://github.com/FullMetalPie/Unity_AR-learningProject" target="_blank">
+                    <div>
+                        <img src="Media/github-mark-white.svg" width="60vw" />
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="Media/demo.apk">
+                    <div id="download_button">
+                        DOWNLOAD
+                    </div>
+                </a>
+                <a href="mailto:andrea.pietri06@gmail.com">
+                    <img src="Media/mail_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" width="60vw" />
                 </a>
             </div>
-        </flexbox>
+        </div>
     </body>
 </html>
