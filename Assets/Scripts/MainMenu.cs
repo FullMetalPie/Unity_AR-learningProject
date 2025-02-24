@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
 
     public void playPlaneDetect() {
         StartSession();
-        SceneManager.LoadSceneAsync("ARPlaneDetect");
+        SceneManager.LoadSceneAsync("PlaneDetect");
     }
 
     public void gitHubButton() {
