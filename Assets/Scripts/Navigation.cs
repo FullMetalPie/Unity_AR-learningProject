@@ -6,8 +6,6 @@ using UnityEngine.XR.Management;
 
 public class Navigation : MonoBehaviour
 {
-
-    public GameObject ball;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void goBack() {
         EndSession();
