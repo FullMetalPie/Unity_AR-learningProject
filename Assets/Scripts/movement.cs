@@ -1,20 +1,21 @@
 using UnityEngine;
+using System;
 
 public class movement : MonoBehaviour
 {
-    public float speed = 1;
+    public float speed;
+    private float angle = 45f;
     private Rigidbody rb;
-    private float movementX;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
+    public GameObject Cam;
     void Start()
     {
+        angle = 45; //Math.Abs(Cam.transform.rotation.z);
         rb = GetComponent<Rigidbody>();
-    }
+        Quaternion rotation = Quaternion.Euler( Cam.transform.rotation.x, Cam.transform.rotation.y, angle);
+        Vector3 velocity = rotation * (Vector3.forward * speed);
 
-    
-    // Update is called once per frame
-    private void FixedUpdate() {
-        Vector3 movement = new Vector3(0.1f, 0.0f, 0.0f);
-        rb.AddForce(movement * speed);
+        rb.linearVelocity = velocity;
+        //rb.AddForce(new Vector3(power * speed, fly * speed, power * speed));
     }
 }

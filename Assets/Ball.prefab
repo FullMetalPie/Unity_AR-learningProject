@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8886226162627687630}
   - component: {fileID: 8090592523201211549}
   - component: {fileID: -6982346042525013188}
-  - component: {fileID: 3055710315885881965}
+  - component: {fileID: 5043389549668309272}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -54,7 +54,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -137,7 +137,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3055710315885881965
+--- !u!114 &5043389549668309272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,4 +149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41c9891eb573ca44f8b341926fb93f07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 10
+  angle: 50
+  Cam: {fileID: 0}
