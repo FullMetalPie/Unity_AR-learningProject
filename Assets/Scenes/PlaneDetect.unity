@@ -667,6 +667,68 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1001 &1137176481
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1193498964639340494, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_Name
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.1358376
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.8285856
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.76749
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985396221577286689, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043389549668309272, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+      propertyPath: Cam
+      value: 
+      objectReference: {fileID: 1358107696}
+    m_RemovedComponents:
+    - {fileID: 5043389549668309272, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
 --- !u!1 &1274638889
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,6 +1051,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ball: {fileID: 1193498964639340494, guid: 416bea265238ccf41b21b7a02707a494, type: 3}
   Point: {fileID: 441237799}
+  CameraTransform: {fileID: 397402610}
+  BallSpeed: 20
 --- !u!1 &1437110436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,3 +1332,4 @@ SceneRoots:
   - {fileID: 905858213}
   - {fileID: 629376017}
   - {fileID: 471560556}
+  - {fileID: 1137176481}
